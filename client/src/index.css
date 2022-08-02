@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: "ibm -plex-sans";
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "ibm -plex-sans";
+  font-style: normal;
+}
+input,
+input:focus,
+input:active {
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  width: 100%;
+  background: transparent;
+}

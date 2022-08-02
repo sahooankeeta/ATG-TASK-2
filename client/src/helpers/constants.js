@@ -1,0 +1,10 @@
+export const AUTH = "AUTH";
+export const SET_LOADING = "SET_LOADING";
+export const SET_ERROR = "SET_ERROR";
+export const LOGOUT = "LOGOUT";
+export const CREATE = "CREATE";
+export const DELETE = "DELETE";
+export const FETCH_ALL_POSTS = "FETCH_ALL_POSTS";
+export const LIKE = "LIKE";
+export const UPDATE = "UPDATE";
+export const CREATE_COMMENT = "CREATE_COMMENT";

@@ -1,0 +1,88 @@
+$md: 800px;
+$lg: 997px;
+$sm: 520px;
+.banner-header {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  z-index: 2;
+}
+.post-form {
+  width: 55%;
+  margin: 20px auto;
+}
+.profile-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+.modal-view-big {
+  max-width: 95%;
+  width: 65%;
+  margin: 0 auto;
+}
+.modal-view-small {
+  display: none;
+}
+.nav-small {
+  display: none;
+}
+.nav-big {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+.edit {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  border-radius: 100%;
+  color: white;
+  background: rgb(255, 92, 92);
+  height: 55px;
+  width: 55px;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+@media (min-width: $md) {
+  .banner-header {
+    display: none;
+  }
+  .edit {
+    display: none;
+  }
+}
+@media (max-width: $md) {
+  .modal-view-big {
+    width: 90%;
+  }
+  .post-form {
+    width: 90%;
+  }
+}
+@media (max-width: $sm) {
+  .modal-view-small {
+    display: contents;
+
+    margin: 0;
+    width: 100%;
+  }
+  .modal-view-big {
+    display: none;
+  }
+  .post-form {
+    width: 98%;
+  }
+  .nav-small {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav-big {
+    display: none;
+  }
+}
